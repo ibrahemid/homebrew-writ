@@ -1,12 +1,12 @@
 cask "writ" do
-  version "0.3.2"
-  sha256 "1e522c45ad68fb7c973385d70fea224b1a111dfbf0214c6be3651d599a87c999"
+  version "0.5.0"
+  sha256 "782a9dd9c6f734344aeb241590bb939b5942be1fce9f591d6b49f25254ab905d"
 
   url "https://github.com/ibrahemid/writ/releases/download/v#{version}/Writ_#{version}_universal.pkg",
       verified: "github.com/ibrahemid/writ/"
 
   name "Writ"
-  desc "Lightweight, always-ready text editor for developers"
+  desc "Light text editor for any text file, with full-text search and inline Markdown"
   homepage "https://github.com/ibrahemid/writ"
 
   livecheck do
